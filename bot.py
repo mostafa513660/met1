@@ -1,6 +1,6 @@
 import telebot,requests,re,random
 from telebot import types
-tok='6783480953:AAFdut1M19uyJlIZ7kCBZxmYqKpIbktgAbY'
+tok='6783480953:AAHyBVhmv--wdAk-C_jCVocAaIjBkcI3ey8'
 bot=telebot.TeleBot(tok)
 @bot.message_handler(commands=['start'])
 def start(message):
